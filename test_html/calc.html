@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<script>
+			function add_1()
+			{
+				document.getElementById("ip").value+="1";
+			}
+			function add_2()
+			{
+				document.getElementById("ip").value+="2";
+			}
+			function add_3()
+			{
+				document.getElementById("ip").value+="3";
+			}
+			function add_4()
+			{
+				document.getElementById("ip").value+="4";
+			}
+			function add_5()
+			{
+				document.getElementById("ip").value+="5";
+			}
+			function add_6()
+			{
+				document.getElementById("ip").value+="6";
+			}
+			function add_7()
+			{
+				document.getElementById("ip").value+="7";
+			}
+			function add_8()
+			{
+				document.getElementById("ip").value+="8";
+			}
+			function add_9()
+			{
+				document.getElementById("ip").value+="9";
+			}
+			function add_0()
+			{
+				document.getElementById("ip").value+="0";
+			}
+			function add_plus()
+			{
+				document.getElementById("ip").value+="+";
+			}
+			function add_minus()
+			{
+				document.getElementById("ip").value+="-";
+			}
+			function add_mul()
+			{
+				document.getElementById("ip").value+="*";
+			}
+			function add_div()
+			{
+				document.getElementById("ip").value+="/";
+			}
+			function add_c()
+			{
+				document.getElementById("ip").value=" ";
+			}
+			function calculate()
+			{
+				document.getElementById("ip").value=eval(document.getElementById("ip").value);
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" width="100%" height="50px" id="ip"> <br>
+
+		<button id="1" onclick="add_1()">1</button>
+		<button id="2" onclick="add_2()">2</button>
+		<button id="3" onclick="add_3()">3</button><br>
+		<button id="4" onclick="add_4()">4</button>
+		<button id="5" onclick="add_5()">5</button> 
+		<button id="6" onclick="add_6()">6</button><br>
+		<button id="7" onclick="add_7()">7</button>
+		<button id="8" onclick="add_8()">8</button>
+		<button id="9" onclick="add_9()">9</button><br>
+		<button id="0" onclick="add_0()">0</button>
+		<button id="+" onclick="add_plus()">+</button>
+		<button id="-" onclick="add_minus()">-</button><br>
+		<button id="*" onclick="add_mul()">*</button>
+		<button id="/" onclick="add_div()">/</button>
+		<button id="c" onclick="add_c()">C</button><br>
+		<button id="=" onclick="calculate()">=</button>
+	</body>
+</html>
